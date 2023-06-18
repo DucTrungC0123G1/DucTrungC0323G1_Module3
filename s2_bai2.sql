@@ -63,8 +63,23 @@ select oc.id_order, oc.date_order, oc.total_price_order
 from order_customer oc;
 
 select customer.name_customer, product.name_product
-from product,customer
-join customer on order_customer.id_customer = customer.id_customer
+from product
+join order_detail on order_detail.id_product = product.id_product
+join order_customer on order_customer.id_order = order_detail.id_order
+join customer on customer.id_customer = order_customer.id_customer;
+
+select customer.name_customer, order_customer.id_customer
+from customer
+left join order_customer on order_customer.id_customer = customer.id_customer
+where order_customer.id_customer is null;
+
+select order_customer.id_order, order_customer.date_order, product.price_product*order_detail.od_qty as total_price_order
+from order_detail
+join product on  order_detail.id_product = product.id_product
 join order_customer on order_detail.id_order = order_customer.id_order
-join product on order_detail.id_product = product.id_product
+
+
+
+
+
 
