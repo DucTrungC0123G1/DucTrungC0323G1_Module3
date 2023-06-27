@@ -1,0 +1,87 @@
+*{
+    font-family: Times New Roman;
+}
+
+#head{
+    height: 30px;
+    background-color: #222222;
+}
+/*#headlink{*/
+/*    height: 30px;*/
+/*    background-color: blue;*/
+/*}*/
+#left{
+    width: 10%;
+    min-height: 400px;
+    background-color: brown;
+    float: left;
+}
+#content{
+    width: 70%;
+    min-height: 400px;
+    background-color: cornflowerblue;
+    float: left;
+}
+#right{
+    width: 20%;
+    min-height: 400px;
+    background-color: aquamarine;
+    float: right;
+}
+#footer{
+    clear: both;
+    height: 50px;
+    background-color: chocolate;
+}
+#menu1, #menu1 ul, #menu1 li{
+    padding: 0;
+    margin: 0;
+}
+#menu1 li{
+    list-style: none;
+    position: relative;
+    width:150px;
+    height: 30px;
+    padding:0 20px;
+    background-color: #222222;
+    line-height: 30px;
+    cursor:pointer;
+    float: left;
+    margin: 0;
+
+}
+#menu1 li a{
+    text-decoration:none;
+    color: white;
+}
+
+#menu1 li:hover{
+    background-color:blue;
+}
+#menu1 ul ul{
+    position: absolute;
+    top:unset;
+    left: 0;
+    visibility:hidden;
+}
+#menu1 ul li:hover ul{
+    visibility:visible;
+}
+#login{
+    float: right;
+    cursor:pointer;
+}
+#login a{
+    text-decoration:none;
+    color: white;
+}
+#footer{
+    background-color: #222222;
+}
+#footer p{
+    text-align: center;
+    color: white;
+}
+#content h1,h2,p{
+    margin-left: 20px;
+}
