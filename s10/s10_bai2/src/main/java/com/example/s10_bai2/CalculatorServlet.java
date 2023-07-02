@@ -25,7 +25,7 @@ public class CalculatorServlet extends HttpServlet {
 //            result = num1/num2;
 //        }
         if (request.getParameter("select").equals("chia") && (num2 == 0)) {
-            result = " Second Number Phải Khác 0";
+            result = "Second Number Phải Khác 0";
         } else if (request.getParameter("select").equals("chia")) {
             result = String.valueOf(num1 / num2);
         }
