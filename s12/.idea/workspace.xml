@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="13ae0322-27aa-4ccc-ad54-e7b2c163c7a6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../s11/s11_bai1/product_manager/src/main/java/config/CharsetFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../s11/s11_bai1/product_manager/src/main/webapp/product/view.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../s12_thuchanh/thuchanh/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../s12_thuchanh/thuchanh/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../s12_thuchanh/thuchanh/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../s12_thuchanh/thuchanh/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../s12_thuchanh/thuchanh/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../s12_thuchanh/thuchanh/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../s12_thuchanh/thuchanh/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../s12_thuchanh/thuchanh/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../s12_thuchanh/thuchanh/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../s12_thuchanh/thuchanh/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../s12_thuchanh/thuchanh/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../s12_thuchanh/thuchanh/src/main/java/com/example/thuchanh/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../s12_thuchanh/thuchanh/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../s12_thuchanh/thuchanh/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../s11/s11_bai1/product_manager/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../s11/s11_bai1/product_manager/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../s11/s11_bai1/product_manager/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../s11/s11_bai1/product_manager/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../s11/s11_bai1/product_manager/src/main/java/com/example/product_manager/controller/ProductServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../s11/s11_bai1/product_manager/src/main/java/com/example/product_manager/controller/ProductServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../s11/s11_bai1/product_manager/src/main/java/com/example/product_manager/repository/IProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../s11/s11_bai1/product_manager/src/main/java/com/example/product_manager/repository/IProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../s11/s11_bai1/product_manager/src/main/java/com/example/product_manager/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../s11/s11_bai1/product_manager/src/main/java/com/example/product_manager/repository/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../s11/s11_bai1/product_manager/src/main/java/com/example/product_manager/service/IProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../s11/s11_bai1/product_manager/src/main/java/com/example/product_manager/service/IProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../s11/s11_bai1/product_manager/src/main/java/com/example/product_manager/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../s11/s11_bai1/product_manager/src/main/java/com/example/product_manager/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../s11/s11_bai1/product_manager/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../s11/s11_bai1/product_manager/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../s11/s11_bai1/product_manager/src/main/webapp/product/editProduct.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../s11/s11_bai1/product_manager/src/main/webapp/product/editProduct.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../s11/s11_bai1/product_manager/src/main/webapp/product/listShow.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../s11/s11_bai1/product_manager/src/main/webapp/product/listShow.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2S6HrLq0MRjSFsavgvsmraPfhNG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/CodeGym/C0323G1_NguyenDucTrung/Module 3/s12"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="13ae0322-27aa-4ccc-ad54-e7b2c163c7a6" name="Changes" comment="" />
+      <created>1688460307764</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1688460307764</updated>
+      <workItem from="1688460309011" duration="70000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

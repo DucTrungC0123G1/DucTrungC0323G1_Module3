@@ -8,4 +8,12 @@ public interface IProductRepository {
     List<Product> showList();
 
     void save(Product product);
+
+    void update(int id, Product product);
+
+    Product findById(int id);
+
+    void deleteId(int id);
+
+    List<Product> searchProductByName(String name);
 }

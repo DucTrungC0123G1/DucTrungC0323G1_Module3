@@ -21,7 +21,8 @@
 <p>
     <a href="ProductServlet">Return List</a>
 </p>
-<form action="ProductServlet?action=editProduct" method="post">
+<%--action="ProductServlet?action=editProduct&id=${product.getId()}"--%>
+<form  method="post">
     <fieldset>
         <legend>Product Information</legend>
         <table>
@@ -47,7 +48,7 @@
             </tr>
             <tr>
                 <td></td>
-                <td><input type="submit" value="editProduct"></td>
+                <td><input type="submit" value="updateProduct"></td>
             </tr>
         </table>
     </fieldset>
