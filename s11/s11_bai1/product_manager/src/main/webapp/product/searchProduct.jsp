@@ -14,32 +14,28 @@
 <body>
 <a href="ProductServlet">Return List</a>
 <h1>Search Product</h1>
-<form action="ProductServlet?action=search" method="post">
+<form action="ProductServlet?action=searchProduct" method="post">
     <label for="search">Input Name Product</label>
     <input type="text" name="search" id="search">
     <input type="submit"name="submit"id="submit">
 </form>
-<c:if test="${productList!=null}">
     <table border="1">
-        <thead>
+        <tr>
         <th>Id</th>
         <th>Name</th>
         <th>Price</th>
         <th>Description</th>
         <th>Producer</th>
-        </thead>
+        </tr>
         <c:forEach var="product" items="${productList}">
             <tr>
-                <td>${product.id}</td>
-                <td>${product.name}</td>
-                <td>${product.price}</td>
-                <td>${product.description}</td>
-                <td>${product.producer}</td>
+                <td>${product.getId()}</td>
+                <td>${product.getName()}</td>
+                <td>${product.getPrice()}</td>
+                <td>${product.getDescription()}</td>
+                <td>${product.getProducer()}</td>
             </tr>
         </c:forEach>
     </table>
-</c:if>
-
-
 </body>
 </html>

@@ -38,21 +38,15 @@ public class ProductServlet extends HttpServlet {
             case "view":
                 showView(request, response);
             case "search":
-                showSearch(request,response);
+                showSearch(request, response);
             default:
                 showList(request, response);
         }
     }
 
-    private void showSearch(HttpServletRequest request, HttpServletResponse response) {
+    private void showSearch(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         RequestDispatcher requestDispatcher = request.getRequestDispatcher("product/searchProduct.jsp");
-        try {
-            requestDispatcher.forward(request,response);
-        } catch (ServletException e) {
-            throw new RuntimeException(e);
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
+        requestDispatcher.forward(request, response);
     }
 
     private void showView(HttpServletRequest request, HttpServletResponse response) {
@@ -144,16 +138,31 @@ public class ProductServlet extends HttpServlet {
             case "delete":
                 deleteProduct(request, response);
                 break;
-            case "search":
-                searchProduct(request,response);
+            case "searchProduct":
+                searchProduct(request, response);
                 break;
-            
+
         }
     }
 
     private void searchProduct(HttpServletRequest request, HttpServletResponse response) {
         String searchName = request.getParameter("searchName");
-        List<Product>productList = productService.searchProductName(searchName);
+        List<Product> productList = productService.searchProductName(searchName);
+        RequestDispatcher requestDispatcher;
+        if (productList == null) {
+            requestDispatcher = request.getRequestDispatcher("product/error404.jsp");
+
+        } else {
+            request.setAttribute("productList", productList);
+        }
+        requestDispatcher = request.getRequestDispatcher("product/searchProduct.jsp");
+        try {
+            requestDispatcher.forward(request, response);
+        } catch (ServletException e) {
+            throw new RuntimeException(e);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
 
     }
 

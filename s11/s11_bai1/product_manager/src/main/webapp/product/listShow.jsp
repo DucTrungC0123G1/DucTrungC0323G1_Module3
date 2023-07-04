@@ -17,7 +17,9 @@
 <div>
     <p>
         <a href="ProductServlet?action=showFormCreate">
-            <input type="submit" name="Add Product" value="Add Product"> </a>
+            <input type="submit" name="Add Product" value="Add Product"/> </a><br>
+        <a href="ProductServlet?action=search">
+            <input type="submit" name="Search" value="Search"/></a>
         <c:if test="${msg != null}">
             <c:out value="${msg}"/>
         </c:if>
