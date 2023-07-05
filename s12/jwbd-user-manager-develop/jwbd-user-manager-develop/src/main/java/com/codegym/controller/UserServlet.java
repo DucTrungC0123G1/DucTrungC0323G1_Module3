@@ -89,10 +89,8 @@ public class UserServlet extends HttpServlet {
     }
 
     private void showSortName(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        List<User> userList = userService.sortByName();
-        request.setAttribute("userList",userList);
-//        String result = "sort";
-//        request.setAttribute("result", result);
+        List<User> listUser = userService.sortByName();
+        request.setAttribute("listUser",listUser);
         RequestDispatcher requestDispatcher = request.getRequestDispatcher("user/list.jsp");
         requestDispatcher.forward(request,response);
     }

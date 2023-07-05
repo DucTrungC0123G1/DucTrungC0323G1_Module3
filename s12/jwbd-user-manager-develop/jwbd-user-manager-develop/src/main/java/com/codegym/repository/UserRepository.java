@@ -37,7 +37,7 @@ public class UserRepository implements IUserRepsitory {
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
-        return null;
+        return userList;
     }
 
     @Override

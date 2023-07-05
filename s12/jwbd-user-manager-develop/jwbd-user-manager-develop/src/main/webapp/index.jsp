@@ -11,6 +11,6 @@
     <title>tttttt</title>
   </head>
   <body>
-  <a href="users">user</a>
+  <a href="/users">user</a>
   </body>
 </html>
